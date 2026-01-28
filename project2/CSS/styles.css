@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(224, 241, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+}
+
+h1{
+    text-shadow: 1px 1px 4px rgb(249, 255, 255);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
