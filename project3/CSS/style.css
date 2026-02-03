@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+    /* CITATION FOR IMAGE */
+    background-image: url("../Images/PrismWebBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 25px;
+    position: relative;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(238, 235, 227);
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 10px rgba(10, 10, 10, 0.7);
+}
+
+
+/*navigation styles*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    border-right: 1px solid #afafaa;
+    font-size: 18px;
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 32px;
+    color: white;
+}
+
+nav a:hover:not(.activeRed, .activeGreen, .activeBlue){
+    background-color: #d5d5d54e;
+}
+
+nav a.activeRed{
+    background-color: #fc91914e;
+}
+
+nav a.activeGreen{
+    background-color: #93fc914e;
+}
+
+nav a.activeBlue{
+    background-color: #91effc4e;
+}
