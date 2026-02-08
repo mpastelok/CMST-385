@@ -123,13 +123,13 @@ p {
     margin: 0 auto 30px auto;
 }
 
-.album p {
-    margin-bottom: 20px;
-}
-
 .album a {
     display: block;
     text-align: center;
+}
+
+.album p {
+    margin-bottom: 20px;
 }
 
 .songlist {
