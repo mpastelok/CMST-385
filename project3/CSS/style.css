@@ -127,6 +127,11 @@ p {
     margin-bottom: 20px;
 }
 
+.album a {
+    display: block;
+    text-align: center;
+}
+
 .songlist {
     list-style-position: inside;
     text-align: left;
