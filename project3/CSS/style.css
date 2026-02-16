@@ -22,13 +22,25 @@ header {
 }
 
 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: rgb(238, 235, 227);
     text-align: center;
     font-size: 75px;
-    letter-spacing: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 50px;
     text-shadow: 3px 3px 10px rgba(10, 10, 10, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h1::before, h1::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #eeb1e2;
+    margin: 0 20px;
 }
 
 
@@ -169,7 +181,6 @@ p {
 article a{
     text-decoration: none;
     color: #eeb1e2;
-    padding: auto 20px;
     margin-top: 10px;
     font-size: 14px;
 }
@@ -198,4 +209,10 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+.backtotop {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 14px;
 }
