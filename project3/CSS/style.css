@@ -233,7 +233,7 @@ figcaption {
     color: whitesmoke;
     margin-top: 8px;
     display: block;
-    width: 100%;
+    width: auto;
     text-align: center;
 }
 
