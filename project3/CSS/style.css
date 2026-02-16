@@ -33,6 +33,7 @@ h1 {
     text-shadow: 3px 3px 10px rgba(10, 10, 10, 0.7);
     text-transform: uppercase;
     letter-spacing: 6px;
+    text-decoration: none;
 }
 
 h1::before, h1::after{
