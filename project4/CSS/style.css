@@ -1,0 +1,131 @@
+/* Universal */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #111111;
+    color: #e0e0e0;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 72px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: #cccccc;
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #1a1a1a;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    margin: 0 auto;
+}
+
+.nav-left {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.nav-left li {
+    margin-right: 25px;
+}
+
+.nav-center {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-right {
+    flex: 1;
+    text-align: right;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #4fd1c5;
+}
+
+.site-name {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e0e0e0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    top: 100%;
+    left: 0;
+    border: 1px solid #333333;
+}
+
+.dropdown-content a {
+    color: #e0e0e0;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #333333;
+    color: #4fd1c5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Hero Section */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/cosmo-hero.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text hr {
+    width: 80px;
+    border: 1px solid #4fd1c5;
+    margin: 20px auto;
+}
