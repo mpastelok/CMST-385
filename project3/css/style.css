@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("../images/prismwebbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding-top: 25px;
+    position: relative;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(238, 235, 227);
+    text-align: center;
+    font-size: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 10px rgba(10, 10, 10, 0.7);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-decoration: none;
+}
+
+h1::before, h1::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #eeb1e2;
+    margin: 0 20px;
+}
+
+
+/*navigation styles*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    border-right: 1px solid #afafaa;
+    font-size: 18px;
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 32px;
+    color: white;
+}
+
+nav a:hover:not(.activeRed, .activeGreen, .activeBlue){
+    background-color: #d5d5d54e;
+}
+
+nav a.activeRed{
+    background-color: #fc91914e;
+}
+
+nav a.activeGreen{
+    background-color: #93fc914e;
+}
+
+nav a.activeBlue{
+    background-color: #91effc4e;
+}
+
+
+/*page content*/
+section.wrapper {
+    padding: 60px 0;
+}
+
+h2 {
+    color: rgb(238, 235, 227);
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 60px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.album {
+    max-width: 800px;
+    margin: 0 auto 100px auto;
+    text-align: center;
+}
+
+.album img {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.album a {
+    display: block;
+    text-align: center;
+}
+
+.album p {
+    margin-bottom: 20px;
+}
+
+.songlist {
+    list-style-position: inside;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.songlist li {
+    margin-bottom: 6px;
+}
+
+.album:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 80px;
+}
+
+.news {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.news h3 {
+    text-align: left;
+}
+
+.newsdate {
+    font-size: 14px;
+    color: #b5b5b5;
+    margin-bottom: 10px;
+}
+
+article a{
+    text-decoration: none;
+    color: #eeb1e2;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    padding: 30px 0;
+    margin-top: 60px;
+    background-color: rgb(29, 29, 29);
+}
+
+.footer-text {
+    font-size: 12px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer a {
+    color: #eeb1e2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.backtotop {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+#top {
+    text-decoration: none;
+}
+
+/*captions*/
+figure {
+    margin: 0 auto 30px auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+figcaption {
+    font-size: 12px;
+    color: whitesmoke;
+    margin-top: 8px;
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+figure a{
+    color: #eeb1e2;
+    text-decoration: none;
+}
+
+figure a:hover{
+    text-decoration: underline;
+}
