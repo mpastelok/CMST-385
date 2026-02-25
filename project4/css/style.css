@@ -59,6 +59,14 @@ a:hover {
     color: #4fd1c5;
 }
 
+.page-title {
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin: 60px 0 40px 0;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 20px;
+}
+
 /* Header and Navigation */
 header {
     background-color: #1a1a1a;
@@ -137,6 +145,12 @@ nav a {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.nav-active {
+    color: #4fd1c5;
+    font-weight: bold;
+    padding-bottom: 5px;
 }
 
 /* Footer */
@@ -224,4 +238,89 @@ footer p {
 
 .project-card a:hover h3 {
     color: #4fd1c5;
+}
+
+/* About Me Content */
+.about-grid {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.bio-main {
+    flex: 2;
+}
+
+.bio-main h3, .bio-sidebar h3, .skills-section h3 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.bio-sidebar {
+    flex: 1;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border: 1px solid #333333;
+    max-width: 325px;
+}
+
+.lead-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto 25px auto;
+    border-radius: 140px;
+    border: 1px solid #333333;
+    filter: grayscale(25%);
+}
+
+.milestones-list {
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 2;
+    color: #cccccc;
+}
+
+.milestones-list li::marker {
+    color: #888888;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.skills-table th, .skills-table td {
+    padding: 15px;
+    border: 1px solid #333333;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #333333;
+}
+
+.skills-section {
+    border-top: 1px solid #333333;
+    padding-top: 40px;
+    margin-top: 60px;
 }
