@@ -17,14 +17,14 @@
 
             <ul class="nav-left">
                 <li class="dropdown">
-                    <a href="index.html" class="dropbtn">My Work</a>
+                    <a href="index.html">My Work</a>
                     <div class="dropdown-content">
-                        <a href="project1.html">Project 1</a>
-                        <a href="project2.html">Project 2</a>
+                        <a href="project1.html">Cosmo</a>
+                        <a href="project2.html">Triple Moon Goddess</a>
                     </div>
                 </li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="nav-active">Contact</a></li>
             </ul>
 
             <div class="nav-center">
@@ -34,22 +34,48 @@
             <div class="nav-right">
                 <a href="https://www.instagram.com/badfish_resolution/" target="_blank">Social</a>
             </div>
-            
+
         </nav>
     </header>
-<!--MAKE ADJUSTMENTS TO BELOW CONTENT-->
-    <main>
-        <section>
-            <!--Hero/Welcome-->
-        </section>
 
-        <section>
-            <!--Projects-->
-        </section>
+    <main class="container">
+        <h1 class="page-title">Contact Me</h1>
+
+        <div class="about-grid">
+            <section class="bio-main">
+                <p class="lead-text">Have a project in mind or looking to collaborate? I would love to hear from you!</p>
+
+                <form action="#">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="subject">Message</label>
+                    <textarea name="subject" id="subject" placeholder="Your message.."></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+            <aside class="bio-sidebar">
+                <h3>Direct Info</h3>
+                <p>For urgent inquiries, feel free to reach out via email directly:</p>
+                <p><a href="mailto:mpastelok@gmail.com" class="sidebar-contact-link">mpastelok@gmail.com</a></p>
+
+                <h3>Social</h3>
+                <p>Instagram: <br>
+                    <a href="https://www.instagram.com/badfish_resolution/" target="_blank" class="sidebar-contact-link">@badfish_resolution</a>
+                </p>
+            </aside>
+        </div>
+        
     </main>
 
     <footer>
-        <!--Footer-->
+        <a href="contact.html">Contact Me</a>
+        <p>&copy; Matt Pastelok | 2026</p>
     </footer>
 
 </body>
