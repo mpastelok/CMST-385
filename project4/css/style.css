@@ -78,6 +78,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 20px 2%;
     margin: 0 auto;
 }
@@ -96,7 +97,9 @@ nav {
 
 .nav-center {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-right {
@@ -421,4 +424,8 @@ figure {
     margin-bottom: 60px;
     font-style: italic;
     display: block;
+}
+
+.secondary-img {
+    max-width: 500px;
 }
