@@ -377,3 +377,48 @@ input[type=submit]:hover {
     text-decoration: underline;
     font-weight: bold;
 }
+
+.note {
+    font-size: 12px;
+    color: #888888;
+    margin-top: 25px;
+    display: block;
+    line-height: 1.4;
+    border-top: 1px solid #333333;
+    padding-top: 15px;
+}
+
+/* Project Pages */
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.project-header {
+    max-width: 875px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.project-header p {
+    margin-bottom: 20px;
+}
+
+.full-width-img {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 1px solid #333333;
+}
+
+.image-source {
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+    margin-top: 12px;
+    margin-bottom: 60px;
+    font-style: italic;
+    display: block;
+}
