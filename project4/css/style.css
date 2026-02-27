@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -428,4 +432,15 @@ figure {
 
 .secondary-img {
     max-width: 500px;
+}
+
+.top-link-container {
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+#top-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
