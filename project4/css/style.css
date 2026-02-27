@@ -349,7 +349,7 @@ label {
     color: #ffffff;
 }
 
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
