@@ -261,7 +261,7 @@ footer p {
     flex: 2;
 }
 
-.bio-main h3, .bio-sidebar h3, .skills-section h3 {
+.bio-main h2, .bio-main h3, .bio-sidebar h2, .bio-sidebar h3, .skills-section h2, .skills-section h3 {
     text-align: left;
     margin-bottom: 20px;
     margin-top: 35px;
@@ -445,6 +445,16 @@ figure {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.project-header h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #cccccc;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 /* Mobile Responsive w/ desktop-first approach */
